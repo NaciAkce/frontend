@@ -1,0 +1,8 @@
+packages/*/tests/*.ts
+node_modules
+dist
+webpack
+packages/**/.eslintrc.js
+webpack.config.js
+packages/**/app-env.d.ts
+packages/

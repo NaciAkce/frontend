@@ -1,0 +1,42 @@
+{
+    "name": "frontend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:mike-north/js-ts-monorepos.git",
+    "author": "Naci Akce <n.akceh@anvedo.com>",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "test": "lerna run jest",
+        "bootstrap": "yarn install && lerna run bootstrap",
+        "lint": "eslint src --ext js,ts",
+        "clean": "rimraf dist",
+        "build": "lerna run build",
+        "start": "lerna run start --parallel"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^11.0.0",
+        "@commitlint/config-conventional": "^11.0.0",
+        "@commitlint/config-lerna-scopes": "^11.0.0",
+        "commitlint": "^11.0.0",
+        "eslint": "^7.18.0",
+        "husky": "^4.3.8",
+        "lerna": "^3.22.1",
+        "prettier": "^2.2.1",
+        "pretty-quick": "^3.1.0",
+        "rimraf": "^3.0.2"
+    },
+    "volta": {
+        "node": "14.15.4",
+        "yarn": "1.22.4"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+            "pre-commit": "pretty-quick --staged"
+        }
+    }
+}
