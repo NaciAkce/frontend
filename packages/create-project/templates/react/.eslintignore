@@ -1,0 +1,8 @@
+node_modules
+dist
+.eslintrc.js
+index.d.ts
+build
+setuptests.ts
+babel.config.js
+tsconfig.json
