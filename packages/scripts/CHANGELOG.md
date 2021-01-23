@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.1.0...@naci/scripts@1.1.1) (2021-01-23)
+
+### Bug Fixes
+
+-   **scripts:** change to dependencies ([799cb9a](https://github.com/NaciAkce/frontend/commit/799cb9ad9a15c6fbc4dc1d65b311a4ef5a47fe0f))
+
 # 1.1.0 (2021-01-23)
 
 ### Bug Fixes
