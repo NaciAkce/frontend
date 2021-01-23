@@ -1,9 +1,10 @@
 {
-    "name": "@frontend/scripts",
+    "name": "@naci/scripts",
     "version": "1.0.0",
     "main": "src/index.js",
     "license": "MIT",
     "bin": {
+        "@naci/frontend-scripts": "./bin/frontend-scripts.js",
         "frontend-scripts": "./bin/frontend-scripts.js"
     },
     "publishConfig": {
