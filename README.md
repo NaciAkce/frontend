@@ -8,7 +8,7 @@ Only reason: `Cant wait to the release of CRA with webpack5`
 
 In the project directory, you can run:
 
-### `npx @naci/create-project folder-name`
+### `npx create-project folder-name`
 
 Create Project
 

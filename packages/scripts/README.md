@@ -6,7 +6,7 @@
 
 In the project directory, you can run:
 
-### `npx @naci/create-project folder-name`
+### `npx create-project folder-name`
 
 Create Project
 
