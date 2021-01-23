@@ -1,5 +1,5 @@
 {
-    "name": "test-typescript",
+    "name": "react-template",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -42,7 +42,6 @@
         "@typescript-eslint/eslint-plugin": "^4.14.0",
         "@typescript-eslint/parser": "^4.14.0",
         "babel-jest": "^26.6.3",
-        "husky": "^4.3.8",
-        "node-sass": "^5.0.0"
+        "cross-env": "^7.0.3"
     }
 }
