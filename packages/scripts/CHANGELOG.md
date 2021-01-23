@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.1.1...@naci/scripts@1.1.2) (2021-01-23)
+
+### Bug Fixes
+
+-   **scripts:** add postcss env package ([1d6b43a](https://github.com/NaciAkce/frontend/commit/1d6b43ad690496cd28e993bd2f5b0e4e2f2687ef))
+
 ## [1.1.1](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.1.0...@naci/scripts@1.1.1) (2021-01-23)
 
 ### Bug Fixes

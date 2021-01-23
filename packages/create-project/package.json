@@ -1,7 +1,7 @@
 {
     "name": "@naci/create-project",
     "main": "src/index.js",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "license": "MIT",
     "bin": {
         "create-project": "./bin/create-project.js"

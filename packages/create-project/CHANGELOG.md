@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/NaciAkce/frontend/compare/@naci/create-project@0.2.0...@naci/create-project@0.2.1) (2021-01-23)
+
+### Bug Fixes
+
+-   **scripts:** add postcss env package ([83e9594](https://github.com/NaciAkce/frontend/commit/83e95947ccfe34c44754cddf432a233476832729))
+
 # 0.2.0 (2021-01-23)
 
 ### Bug Fixes
