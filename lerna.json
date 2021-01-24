@@ -5,7 +5,13 @@
     "useWorkspaces": true,
     "command": {
         "publish": {
-            "conventionalCommits": true
+            "conventionalCommits": true,
+            "ignoreChanges": ["*.md", "LICENSE"],
+            "private": false
+        },
+        "version": {
+            "createRelease": "github",
+            "message": "chore(release): release"
         }
     }
 }
