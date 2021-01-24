@@ -15,10 +15,10 @@
         "create"
     ],
     "author": "Naci Akce <naci_akce@hotmail.com>",
-    "homepage": "https://github.com/NaciAkce/frontend#readme",
+    "homepage": "https://github.com/NaciAkce/frontend",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/NaciAkce/frontend.git"
+        "url": "https://github.com/NaciAkce/frontend.git"
     },
     "scripts": {},
     "bugs": {
