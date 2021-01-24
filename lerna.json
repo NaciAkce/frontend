@@ -6,8 +6,7 @@
     "command": {
         "publish": {
             "conventionalCommits": true,
-            "ignoreChanges": ["*.md", "LICENSE"],
-            "private": false
+            "ignoreChanges": ["*.md"]
         },
         "version": {
             "createRelease": "github",
