@@ -10,7 +10,7 @@
         },
         "version": {
             "createRelease": "github",
-            "message": "chore(release): release"
+            "message": "chore: release"
         }
     }
 }

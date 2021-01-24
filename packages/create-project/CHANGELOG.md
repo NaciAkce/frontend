@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/NaciAkce/frontend/compare/@naci/create-project@0.2.1...@naci/create-project@0.2.2) (2021-01-24)
+
+**Note:** Version bump only for package @naci/create-project
+
 ## [0.2.1](https://github.com/NaciAkce/frontend/compare/@naci/create-project@0.2.0...@naci/create-project@0.2.1) (2021-01-23)
 
 ### Bug Fixes

@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.1.2...@naci/scripts@1.1.3) (2021-01-24)
+
+**Note:** Version bump only for package @naci/scripts
+
 ## [1.1.2](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.1.1...@naci/scripts@1.1.2) (2021-01-23)
 
 ### Bug Fixes
