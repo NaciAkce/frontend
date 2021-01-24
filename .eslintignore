@@ -6,3 +6,4 @@ packages/**/.eslintrc.js
 webpack.config.js
 packages/**/app-env.d.ts
 packages/
+commitlint.config.js
