@@ -9,6 +9,11 @@
     "publishConfig": {
         "access": "public"
     },
+    "homepage": "https://github.com/NaciAkce/frontend",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NaciAkce/frontend.git"
+    },
     "keywords": [
         "cli",
         "build script",
