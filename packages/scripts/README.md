@@ -1,6 +1,8 @@
 ## Getting Started
 
-### `npx create-project folder-name`
+### `npx @naci/create-project folder-name`
+
+### `yarn create @naci/project folder-name``
 
 Create Project
 
