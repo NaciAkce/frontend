@@ -4,9 +4,9 @@ Only reason: `Cant wait to the release of CRA with webpack5`
 
 ## Getting Started
 
-### `npx @naci/create-project folder-name`
+### `npx @naci/create-frontend-project folder-name`
 
-### `yarn create @naci/project folder-name`
+### `yarn create @naci/frontend-project folder-name`
 
 Create Project
 
