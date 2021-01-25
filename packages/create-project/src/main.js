@@ -2,6 +2,7 @@ import kleur from 'kleur';
 import fs from 'fs';
 import ncp from 'ncp';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import { promisify } from 'util';
 import Listr from 'listr';
 import { projectInstall } from 'pkg-install';
@@ -35,10 +36,12 @@ export async function createProject(options) {
         ...options,
     };
 
-    const currentFileUrl = import.meta.url;
+    const __dirname = fileURLToPath(import.meta.url);
     const templateDir = path.resolve(
-        new URL(currentFileUrl).pathname,
-        '../../templates',
+        __dirname,
+        '..',
+        '..',
+        'templates',
         options.template.toLowerCase(),
     );
 
