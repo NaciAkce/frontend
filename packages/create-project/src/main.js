@@ -41,10 +41,14 @@ export async function createProject(options) {
         '../../templates',
         options.template.toLowerCase(),
     );
+    console.log('templatee', templateDir);
     options.templateDirectory = templateDir;
 
     try {
-        await access(templateDir, fs.constants.R_OK);
+        await access(
+            templateDir,
+            fs.constants.R_OK || fs.constants.W_OK,
+        );
     } catch (err) {
         console.log(
             '%s Invalid template name',
