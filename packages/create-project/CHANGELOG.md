@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.8](https://github.com/NaciAkce/frontend/compare/@naci/create-project@0.2.7...@naci/create-project@0.2.8) (2021-01-25)
+
+### Bug Fixes
+
+-   **create-project:** change access check of template dir ([89737d7](https://github.com/NaciAkce/frontend/commit/89737d7bae064ba375f73f69fd404435a67d6ab1))
+-   **create-project:** move jest to devdependencies and change bin name ([34af655](https://github.com/NaciAkce/frontend/commit/34af655103a56188861228c74c81d02bc360c7eb))
+
 ## [0.2.7](https://github.com/NaciAkce/frontend/compare/@naci/create-project@0.2.6...@naci/create-project@0.2.7) (2021-01-24)
 
 **Note:** Version bump only for package @naci/create-project
