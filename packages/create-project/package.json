@@ -1,10 +1,10 @@
 {
-    "name": "@naci/create-project",
+    "name": "@naci/create-frontend-project",
     "main": "src/index.js",
     "version": "0.2.9",
     "license": "MIT",
     "bin": {
-        "create-project": "./bin/create-project.js"
+        "create-frontend-project": "./bin/create-project.js"
     },
     "publishConfig": {
         "access": "public"
