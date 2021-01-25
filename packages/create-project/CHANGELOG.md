@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2](https://github.com/NaciAkce/frontend/compare/@naci/create-frontend-project@0.3.1...@naci/create-frontend-project@0.3.2) (2021-01-25)
+
+### Bug Fixes
+
+-   **create-frontend-project:** change access check of template dir ([2ec4405](https://github.com/NaciAkce/frontend/commit/2ec440585de48ffcfc28ff7016a294bf37fe949a))
+
 ## [0.3.1](https://github.com/NaciAkce/frontend/compare/@naci/create-frontend-project@0.3.0...@naci/create-frontend-project@0.3.1) (2021-01-25)
 
 **Note:** Version bump only for package @naci/create-frontend-project
