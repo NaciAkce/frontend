@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.3](https://github.com/NaciAkce/frontend/compare/@naci/create-frontend-project@0.3.2...@naci/create-frontend-project@0.3.3) (2021-01-25)
+
+### Bug Fixes
+
+-   **create-frontend-project:** change get template path method ([01309cd](https://github.com/NaciAkce/frontend/commit/01309cd15d211a0a8a1bb2bbf1cec93d4244da88))
+
 ## [0.3.2](https://github.com/NaciAkce/frontend/compare/@naci/create-frontend-project@0.3.1...@naci/create-frontend-project@0.3.2) (2021-01-25)
 
 ### Bug Fixes
