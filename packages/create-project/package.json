@@ -4,7 +4,7 @@
     "version": "0.2.8",
     "license": "MIT",
     "bin": {
-        "create-frontend-project": "./bin/create-project.js"
+        "create-project": "./bin/create-project.js"
     },
     "publishConfig": {
         "access": "public"
