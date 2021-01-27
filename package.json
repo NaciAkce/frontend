@@ -16,7 +16,8 @@
         "clean": "rimraf dist",
         "build": "lerna run build",
         "start": "lerna run start --parallel",
-        "publish:lerna": "dotenv lerna publish"
+        "publish:lerna": "dotenv lerna publish",
+        "version:lerna": "dotenv lerna version"
     },
     "devDependencies": {
         "@commitlint/cli": "^11.0.0",
