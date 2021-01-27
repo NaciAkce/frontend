@@ -16,7 +16,7 @@
         "clean": "rimraf dist",
         "build": "lerna run build",
         "start": "lerna run start --parallel",
-        "publish:lerna": "dotenv lerna publish",
+        "publish:lerna": "dotenv lerna publish -- from-package --yes",
         "version:lerna": "dotenv lerna version"
     },
     "devDependencies": {
