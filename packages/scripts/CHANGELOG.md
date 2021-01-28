@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.14](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.1.13...@naci/scripts@1.1.14) (2021-01-28)
+
+### Bug Fixes
+
+-   **scripts:** import webpack.config from the project root ([61eb92f](https://github.com/NaciAkce/frontend/commit/61eb92fe5765186dfbe7a50cdab6df735d1c66ed))
+
 ## [1.1.13](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.1.12...@naci/scripts@1.1.13) (2021-01-27)
 
 ### Bug Fixes
