@@ -1,6 +1,3 @@
-/**
- * Created by: Andrey Polyakov (andrey@polyakov.im)
- */
 import { join, resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs';

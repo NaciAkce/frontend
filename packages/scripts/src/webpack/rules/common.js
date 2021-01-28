@@ -1,6 +1,3 @@
-/**
- * Created by: Andrey Polyakov (andrey@polyakov.im)
- */
 import { babelLoader } from './useLoaderRuleItems.js';
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
