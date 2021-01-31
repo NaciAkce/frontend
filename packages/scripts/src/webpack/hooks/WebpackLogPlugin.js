@@ -1,57 +1,61 @@
 import kleur from 'kleur';
-import internalIp from 'internal-ip';
+import address from 'address';
 import { port, prettyHost, protocol } from '../config/index.js';
 import { clearConsole } from '../utils/index.js';
 
 class WebpackLogPlugin {
     constructor() {
         this.isInteractive = true;
+        this.networkIp;
     }
 
     apply(compiler) {
         compiler.hooks.done.tap(
             'WebpackMessagePlugin',
             async stats => {
-                this.isInteractive && clearConsole();
+                const error =
+                    stats.compilation.errors &&
+                    stats.compilation.errors.length;
+                !error && clearConsole();
+                this.isInteractive && (this.isInteractive = false);
+                !this.networkIp && (this.networkIp = address.ip());
 
-                !this.isInteractive &&
-                    process.stdout.write(
-                        stats.toString({
-                            colors: true,
-                            assets: false,
-                        }) + '\n',
-                    );
+                process.stdout.write(
+                    stats.toString({
+                        colors: true,
+                        assets: this.isInteractive,
+                    }) + '\n',
+                );
 
-                if (this.isInteractive) {
-                    this.isInteractive = false;
+                if (error) {
                     process.stdout.write(
-                        stats.toString({
-                            colors: true,
-                        }) + '\n',
-                    );
-                    this.networkIp = await internalIp.v4();
-                    console.log(
                         kleur
                             .bold()
-                            .green('\nCompiled successfully!\n'),
+                            .red('\nCompiling failed on error!\n\n'),
                     );
-
-                    // TODO: add detect port if used -> https://www.npmjs.com/package/detect-port-alt
-
-                    console.log(
-                        `${kleur.bold(
-                            '  Local:             ',
-                        )} ${protocol}://${prettyHost}:${port}`,
-                    );
-                    this.networkIp &&
-                        console.log(
-                            `${kleur.bold(
-                                '  On Your Network:   ',
-                            )} ${protocol}://${
-                                this.networkIp
-                            }:${port}\n`,
-                        );
+                    return;
                 }
+                process.stdout.write(
+                    kleur
+                        .bold()
+                        .green('\nCompiled successfully!\n\n'),
+                );
+
+                // TODO: add detect port if used -> https://www.npmjs.com/package/detect-port-alt
+
+                process.stdout.write(
+                    `${kleur.bold(
+                        '  Local:             ',
+                    )} ${protocol}://${prettyHost}:${port}`,
+                );
+
+                this.networkIp &&
+                    process.stdout.write(
+                        `\n${kleur.bold(
+                            '  On Your Network:   ',
+                        )} ${protocol}://${this.networkIp}:${port}`,
+                    );
+                process.stdout.write('\n\n');
             },
         );
     }
