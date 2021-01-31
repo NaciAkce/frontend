@@ -3,13 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.8](https://github.com/NaciAkce/frontend/compare/@naci/create-frontend-project@0.3.7...@naci/create-frontend-project@0.3.8) (2021-01-31)
+
+### Bug Fixes
+
+-   **create-frontend-template:** add prettier and serve ([3a08b7f](https://github.com/NaciAkce/frontend/commit/3a08b7f6e4742d1053c56c9ea5fd0cdda0aa84ae))
+
 ## [0.3.7](https://github.com/NaciAkce/frontend/compare/@naci/create-frontend-project@0.3.6...@naci/create-frontend-project@0.3.7) (2021-01-31)
 
 **Note:** Version bump only for package @naci/create-frontend-project
-
-
-
-
 
 ## [0.3.6](https://github.com/NaciAkce/frontend/compare/@naci/create-frontend-project@0.3.5...@naci/create-frontend-project@0.3.6) (2021-01-28)
 
