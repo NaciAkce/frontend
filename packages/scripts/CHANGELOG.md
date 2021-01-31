@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.1.15...@naci/scripts@1.2.0) (2021-01-31)
+
+
+### Features
+
+* **scripts:** check if windows ([8030c37](https://github.com/NaciAkce/frontend/commit/8030c3741d935d9c719b7db9d08119a9aa9618bd))
+* **scripts:** improve webpack output at development ([2bdb1d5](https://github.com/NaciAkce/frontend/commit/2bdb1d5d928fcacc56c5dd76221c68ec2a19c77e))
+
+
+
+
+
 ## [1.1.15](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.1.14...@naci/scripts@1.1.15) (2021-01-28)
 
 **Note:** Version bump only for package @naci/scripts
