@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.2.0...@naci/scripts@1.2.1) (2021-02-01)
+
+
+### Bug Fixes
+
+* **scripts:** remove windows check ([c655c37](https://github.com/NaciAkce/frontend/commit/c655c37d847533656df7f5d99956176ffe753179))
+
+
+
+
+
 # [1.2.0](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.1.15...@naci/scripts@1.2.0) (2021-01-31)
 
 
