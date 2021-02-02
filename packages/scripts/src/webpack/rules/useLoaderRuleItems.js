@@ -25,11 +25,10 @@ export const sassLoader = {
     },
 };
 
-const plugins = () =>
-    [
-        require.resolve('postcss-preset-env'),
-        isProd ? require.resolve('cssnano') : null,
-    ].filter(Boolean);
+const plugins = [
+    'postcss-preset-env',
+    isProd ? 'cssnano' : null,
+].filter(Boolean);
 
 const postcss = fs.existsSync(postCssConfig) ? postCssConfig : false;
 
