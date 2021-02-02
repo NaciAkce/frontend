@@ -1,25 +1,28 @@
-module.exports = api => {
-    api && api.cache(true);
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+export default api => {
     return {
         presets: [
-            '@babel/preset-env',
-            '@babel/preset-typescript',
-            '@babel/preset-react',
+            require.resolve('@babel/preset-env'),
+            require.resolve('@babel/preset-typescript'),
+            require.resolve('@babel/preset-react'),
         ],
         plugins: [
             [
-                '@babel/plugin-transform-react-jsx',
+                require.resolve('@babel/plugin-transform-react-jsx'),
                 {
                     runtime: 'automatic',
                 },
             ],
             [
-                '@babel/plugin-proposal-class-properties',
+                require.resolve(
+                    '@babel/plugin-proposal-class-properties',
+                ),
                 {
                     loose: true,
                 },
             ],
-            '@babel/plugin-syntax-dynamic-import',
+            require.resolve('@babel/plugin-syntax-dynamic-import'),
             [
                 '@babel/plugin-transform-runtime',
                 {
@@ -27,7 +30,7 @@ module.exports = api => {
                 },
             ],
             [
-                'babel-plugin-transform-imports',
+                require.resolve('babel-plugin-transform-imports'),
                 {
                     '@material-ui/core': {
                         transform: '@material-ui/core/${member}',
@@ -44,7 +47,7 @@ module.exports = api => {
             test: {
                 presets: [
                     [
-                        '@babel/preset-env',
+                        require.resolve('@babel/preset-env'),
                         { targets: { node: 'current' } },
                     ],
                 ],

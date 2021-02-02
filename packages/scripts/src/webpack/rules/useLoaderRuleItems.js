@@ -25,10 +25,11 @@ export const sassLoader = {
     },
 };
 
-const plugins = [
-    require.resolve('postcss-preset-env'),
-    isProd ? require.resolve('cssnano') : null,
-].filter(Boolean);
+const plugins = () =>
+    [
+        require.resolve('postcss-preset-env'),
+        isProd ? require.resolve('cssnano') : null,
+    ].filter(Boolean);
 
 const postcss = fs.existsSync(postCssConfig) ? postCssConfig : false;
 
@@ -37,7 +38,7 @@ export const postCssLoader = {
     options: {
         postcssOptions: {
             config: postcss,
-            plugins,
+            plugins: plugins,
         },
         sourceMap: isDev,
     },
@@ -92,7 +93,7 @@ export const babelLoader = {
     options: {
         configFile: fs.existsSync(babelRc)
             ? babelRc
-            : resolve(webpackDir, '../..', 'babel.config.js'),
+            : require.resolve('../../../babel.config.js'),
         include: resolve(rootDir, 'src'),
         plugins: [
             isDev && require.resolve('react-refresh/babel'),
