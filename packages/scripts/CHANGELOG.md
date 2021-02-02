@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.6](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.2.5...@naci/scripts@1.2.6) (2021-02-02)
+
+
+### Bug Fixes
+
+* **scripts:** remove prettier eslint ([5e24224](https://github.com/NaciAkce/frontend/commit/5e24224e90fd1cfd7762f72b54fbba9c52e63023))
+
+
+
+
+
 ## [1.2.5](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.2.4...@naci/scripts@1.2.5) (2021-02-02)
 
 
