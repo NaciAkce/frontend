@@ -8,11 +8,13 @@ module.exports = {
         browser: true,
         es6: true,
         node: true,
+        jest: true,
     },
     extends: [
-        'plugin:@typescript-eslint/recommended', // Uses the recommended rules from the @typescript-eslint/eslint-plugin
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        'prettier/@typescript-eslint', // Uses eslint-config-prettier to disable ESLint rules from @typescript-eslint/eslint-plugin that would conflict with prettier
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended',
+        'prettier/@typescript-eslint',
+        'plugin:prettier/recommended',
         'prettier/react', // disables react-specific linting rules that conflict with prettier
     ],
     parserOptions: {
