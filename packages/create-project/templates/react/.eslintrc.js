@@ -14,8 +14,7 @@ module.exports = {
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
         'prettier/@typescript-eslint',
-        'plugin:prettier/recommended',
-        'prettier/react', // disables react-specific linting rules that conflict with prettier
+        'prettier/react',
     ],
     parserOptions: {
         project: path.resolve(__dirname, './tsconfig.json'),
