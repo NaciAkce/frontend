@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.2.1...@naci/scripts@1.2.2) (2021-02-02)
+
+
+### Bug Fixes
+
+* **scripts:** add common  types ([69feb50](https://github.com/NaciAkce/frontend/commit/69feb50bcebcf14d7268e74989e12ab6ab4bd699))
+* **scripts:** improve module resolution ([d2a368f](https://github.com/NaciAkce/frontend/commit/d2a368f3eee6466919ffec874b82654822153dbd))
+
+
+
+
+
 ## [1.2.1](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.2.0...@naci/scripts@1.2.1) (2021-02-01)
 
 
