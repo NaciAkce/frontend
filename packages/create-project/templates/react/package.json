@@ -19,7 +19,8 @@
     "scripts": {
         "start": "cross-env NODE_ENV=development frontend-scripts start",
         "build": "cross-env NODE_ENV=production frontend-scripts build",
-        "test": "cross-env NODE_ENV=test frontend-scripts test -- --verbose --watchAll"
+        "test": "cross-env NODE_ENV=test frontend-scripts test -- --verbose --watchAll",
+        "serve": "serve build"
     },
     "browserslist": {
         "production": [
@@ -37,7 +38,6 @@
     "devDependencies": {
         "babel-jest": "^26.6.3",
         "cross-env": "^7.0.3",
-        "prettier": "^2.2.1",
         "serve": "^11.3.2"
     }
 }
