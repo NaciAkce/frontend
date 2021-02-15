@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.11](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.2.10...@naci/scripts@1.2.11) (2021-02-15)
+
+
+### Bug Fixes
+
+* **scripts:** disable sources ([f0c5f0a](https://github.com/NaciAkce/frontend/commit/f0c5f0a549a3163b940a5d88cadeb328b059623b))
+
+
+
+
+
 ## [1.2.10](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.2.9...@naci/scripts@1.2.10) (2021-02-15)
 
 **Note:** Version bump only for package @naci/scripts
