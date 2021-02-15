@@ -17,6 +17,9 @@ export const htmlRule = {
     test: /\.(html)$/,
     use: {
         loader: require.resolve('html-loader'),
+        options: {
+            sources: false,
+        },
     },
 };
 /**
