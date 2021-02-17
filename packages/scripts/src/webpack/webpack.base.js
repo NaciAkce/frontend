@@ -1,4 +1,5 @@
 import * as path from 'path';
+import Dotenv from 'dotenv-webpack';
 import TsconfigPathsPlugin from 'tsconfig-paths-webpack-plugin';
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import * as plugins from './plugins/index.js';
@@ -26,6 +27,7 @@ const config = {
         ].filter(Boolean),
     },
     plugins: [
+        new Dotenv(),
         plugins.htmlWebpackPlugin,
         plugins.forkTsCheckerWebpackPlugin,
         plugins.esLintPlugin,
