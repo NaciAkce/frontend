@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.3.0...@naci/scripts@1.3.1) (2021-02-17)
+
+
+### Bug Fixes
+
+* **scripts:** use dotenv instead of dotenv webpack ([87a245d](https://github.com/NaciAkce/frontend/commit/87a245d06ee31f2451d99c488ec16cd0f2dcd2b0))
+
+
+
+
+
 # [1.3.0](https://github.com/NaciAkce/frontend/compare/@naci/scripts@1.2.11...@naci/scripts@1.3.0) (2021-02-17)
 
 
