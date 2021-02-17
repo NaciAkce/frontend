@@ -1,15 +1,17 @@
 import * as path from 'path';
-import Dotenv from 'dotenv-webpack';
+import dotenv from 'dotenv';
+import dotenvExpand from 'dotenv-expand';
+import webpack from 'webpack';
 import TsconfigPathsPlugin from 'tsconfig-paths-webpack-plugin';
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import * as plugins from './plugins/index.js';
 import * as rules from './rules/index.js';
-import { rootDir, webpackDir, isDev, appJs } from './config/index.js';
+import { rootDir, appJs, env } from './config/index.js';
 import optimization from './config/optimization.js';
-// https://www.robinwieruch.de/webpack-babel-setup-tutorial
-// https://www.robinwieruch.de/minimal-react-webpack-babel-setup
-// https://www.robinwieruch.de/minimal-react-webpack-babel-setup
+
 const argv = process.argv.slice(2);
+const NODE_ENV = process.env.NODE_ENV;
+const dotenvFile = `${env}.${NODE_ENV}`;
 
 const config = {
     context: rootDir,
@@ -27,11 +29,19 @@ const config = {
         ].filter(Boolean),
     },
     plugins: [
-        new Dotenv(),
         plugins.htmlWebpackPlugin,
         plugins.forkTsCheckerWebpackPlugin,
         plugins.esLintPlugin,
         plugins.copyPlugin,
+        new webpack.DefinePlugin({
+            'process.env': JSON.stringify(
+                dotenvExpand(
+                    dotenv.config({
+                        path: dotenvFile,
+                    }),
+                ).parsed,
+            ), // it will automatically pick up key values from .env file
+        }),
         argv.indexOf('--analyze-bundle') !== -1 &&
             new BundleAnalyzerPlugin(),
     ].filter(Boolean),
