@@ -1,5 +1,3 @@
-const path = require('path');
-
 module.exports = {
     root: true,
     parser: '@typescript-eslint/parser', // Specifies the ESLint parser
@@ -13,12 +11,10 @@ module.exports = {
     extends: [
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
-        'prettier/@typescript-eslint',
-        'prettier/react',
+        'prettier',
     ],
     parserOptions: {
-        project: path.resolve(__dirname, './tsconfig.json'),
-        ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
+        ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
         sourceType: 'module', // Allows for the use of imports
         tsconfigRootDir: __dirname,
         ecmaFeatures: {
