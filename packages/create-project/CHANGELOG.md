@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.23](https://github.com/NaciAkce/frontend/compare/@naci/create-frontend-project@0.3.22...@naci/create-frontend-project@0.3.23) (2021-03-15)
+
+
+### Bug Fixes
+
+* **create-frontend-project:** change prettier implemantation in eslintrc ([c80cafc](https://github.com/NaciAkce/frontend/commit/c80cafc425e4b1b07645685608dbaaed429dfd8a))
+
+
+
+
+
 ## [0.3.22](https://github.com/NaciAkce/frontend/compare/@naci/create-frontend-project@0.3.21...@naci/create-frontend-project@0.3.22) (2021-03-15)
 
 **Note:** Version bump only for package @naci/create-frontend-project
