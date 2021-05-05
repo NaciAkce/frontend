@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.25](https://github.com/NaciAkce/frontend/compare/@naci/create-frontend-project@0.3.24...@naci/create-frontend-project@0.3.25) (2021-05-05)
+
+**Note:** Version bump only for package @naci/create-frontend-project
+
+
+
+
+
 ## [0.3.24](https://github.com/NaciAkce/frontend/compare/@naci/create-frontend-project@0.3.23...@naci/create-frontend-project@0.3.24) (2021-04-07)
 
 **Note:** Version bump only for package @naci/create-frontend-project
